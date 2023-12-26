@@ -28,17 +28,28 @@ pip install numpy torch torchsummary Pillow matplotlib
 
 ## Getting Started
 
-Clone the repository:
+You have to first Mount your Google drive to import images. Use the following code to mount your Google Drive and access your files:
 ```python
-bash
+# Mount Google Drive
+from google.colab import drive
+drive.mount('/content/drive')
 
-git clone https://github.com/your_username/your_project.git
-cd your_project
 ```
-
-Open the provided Jupyter Notebook or Python script.
-
-Run the code cells or execute the script.
+In this step, you need to specify the path of your parent folder where your data is stored. The parent folder should include subfolders corresponding to the groups in your experiment.
+```python
+# Specify the path of your parent folder
+parent_folder_path = '/content/drive/MyDrive/YourParentFolder'
+Replace 'YourParentFolder' with the actual name of your parent folder.
+```
+Ensure that your folder structure resembles the following:
+```python
+YourParentFolder/
+├── Group1/
+├── Group2/
+├── Group3/
+# ... (additional groups)
+```
+Adjust the folder names according to the groups in your experiment.
 
 ## Project Structure
 
