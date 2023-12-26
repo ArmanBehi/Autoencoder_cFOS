@@ -28,7 +28,7 @@ pip install numpy torch torchsummary Pillow matplotlib
 
 ## Getting Started
 
-    Clone the repository:
+Clone the repository:
 ```python
 bash
 
@@ -36,9 +36,9 @@ git clone https://github.com/your_username/your_project.git
 cd your_project
 ```
 
-    Open the provided Jupyter Notebook or Python script.
+Open the provided Jupyter Notebook or Python script.
 
-    Run the code cells or execute the script.
+Run the code cells or execute the script.
 
 ## Project Structure
 
