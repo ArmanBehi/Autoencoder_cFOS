@@ -1,10 +1,11 @@
 # Autoencoder_cFOS
 Autoencoder Convolutional_Neural_Network for reducing Noise_to_signal ratio in Confocal cFOS Images
 
-##Introduction
+## Introduction
 
 For a comprehensive scientific description of the project, please refer to the detailed documentation provided in the PDF file titled "Autoencoder_cFOS." 
 
+## Installation
 To run this code, you need to have the following libraries installed:
 
     numpy
