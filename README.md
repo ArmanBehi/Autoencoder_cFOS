@@ -19,19 +19,22 @@ To run this code, you need to have the following libraries installed:
     google.colab
 
 You can install these dependencies using the following command:
-'''
+```python
 bash
 
 pip install numpy torch torchsummary Pillow matplotlib
-'''
+
+```
+
 ## Getting Started
 
     Clone the repository:
-
+```python
 bash
 
 git clone https://github.com/your_username/your_project.git
 cd your_project
+```
 
     Open the provided Jupyter Notebook or Python script.
 
@@ -44,8 +47,7 @@ Explain the organization of the project files and directories:
     README.md: Project documentation.
     your_script.py: Main Python script containing the code.
     notebooks/: Directory containing Jupyter Notebooks.
-    data/: Directory for storing datasets (if applicable).
-    results/: Directory for storing model outputs or results.
+
 
 ## Usage
 
