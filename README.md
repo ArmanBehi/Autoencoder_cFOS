@@ -24,7 +24,7 @@ bash
 
 pip install numpy torch torchsummary Pillow matplotlib
 
-Getting Started
+## Getting Started
 
     Clone the repository:
 
@@ -37,7 +37,7 @@ cd your_project
 
     Run the code cells or execute the script.
 
-Project Structure
+## Project Structure
 
 Explain the organization of the project files and directories:
 
@@ -47,7 +47,7 @@ Explain the organization of the project files and directories:
     data/: Directory for storing datasets (if applicable).
     results/: Directory for storing model outputs or results.
 
-Usage
+## Usage
 
 Describe how to use the code:
 
@@ -55,12 +55,12 @@ Describe how to use the code:
     Open and run the provided script or notebook.
     Check the results or outputs in the designated directory.
 
-Data Preparation
+## Data Preparation
 
 Explain how to prepare the data for training or testing, if applicable.
 Results
 
 If the code produces visual results, provide samples or links to the output images.
-Acknowledgments
+## Acknowledgments
 
 Give credit to any third-party libraries, code snippets, or datasets used in the project.
