@@ -19,11 +19,11 @@ To run this code, you need to have the following libraries installed:
     google.colab
 
 You can install these dependencies using the following command:
-
+'''
 bash
 
 pip install numpy torch torchsummary Pillow matplotlib
-
+'''
 ## Getting Started
 
     Clone the repository:
