@@ -1,6 +1,6 @@
 # cFOS_Denoise
 
-It is a pretrained model. you have to upload the model "Denoised_model". For introducing the images, follow "Getting Started" section as follows.
+This project involves a pretrained denoising model, "Denoised_model," which you should upload to get started in the respective section. To introduce images for processing, please refer to the "Getting Started" section below.
 
 # Autoencoder_cFOS
 Autoencoder Convolutional_Neural_Network for reducing Noise_to_signal ratio in Confocal cFOS Images
@@ -55,29 +55,12 @@ YourParentFolder/
 ```
 Adjust the folder names according to the groups in your experiment.
 
-## Project Structure
-
-Explain the organization of the project files and directories:
-
-    README.md: Project documentation.
-    your_script.py: Main Python script containing the code.
-    notebooks/: Directory containing Jupyter Notebooks.
-
 
 ## Usage
 
-Describe how to use the code:
+If you just want to use the pretrained model for your current images, use "cFOS_Denoise"
+If you want to train the model base on your own data, use "Autoencoder_cFOS".
 
-    Ensure the required libraries are installed.
-    Open and run the provided script or notebook.
-    Check the results or outputs in the designated directory.
-
-## Data Preparation
-
-Explain how to prepare the data for training or testing, if applicable.
-Results
-
-If the code produces visual results, provide samples or links to the output images.
 ## Acknowledgments
-
-Give credit to any third-party libraries, code snippets, or datasets used in the project.
+This project has been done for the lab rotation in the lab "Neural Circuits & Network Dynamics".
+https://www.pakanlab.com
