@@ -1,3 +1,6 @@
+#cFOS_Denoise
+It is a pretrained model. you have to upload the model "Denoised_model". For introducing the images, follow "Getting Started" section as follows.
+
 # Autoencoder_cFOS
 Autoencoder Convolutional_Neural_Network for reducing Noise_to_signal ratio in Confocal cFOS Images
 
@@ -37,10 +40,9 @@ drive.mount('/content/drive')
 
 ```
 In this step, you need to specify the path of your parent folder where your data is stored. The parent folder should include subfolders corresponding to the groups in your experiment.
-```python
-# Specify the path of your parent folder
-parent_folder_path = '/content/drive/MyDrive/YourParentFolder'
-Replace 'YourParentFolder' with the actual name of your parent folder.
+
+In the third section, it asks you to provide the modified images. If you really do not have it you could leave it blank.
+It also ask you to input the number of epochs.
 ```
 Ensure that your folder structure resembles the following:
 ```python
