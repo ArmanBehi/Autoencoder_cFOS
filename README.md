@@ -7,7 +7,7 @@ Autoencoder Convolutional_Neural_Network for reducing Noise_to_signal ratio in C
 
 ## Introduction
 
-For a comprehensive scientific description of the project, please refer to the detailed documentation provided in the PDF file titled "Autoencoder_cFOS." 
+For a comprehensive scientific description of the project, please refer to the detailed documentation provided in the PDF file titled "cFOS_autoencoder.pdf".
 
 
 ## Installation
